@@ -29,6 +29,7 @@ import SignInForm from './SignInForm.vue'
     <div class="w-full md:w-1/2  px-5 md:px-12 flex items-center justify-center">
       <SignInForm />
     </div>
+    
   </div>
 </template>
 
