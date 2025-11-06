@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://joekings2k.github.io/Buysimply-frontend/log",
+  "homepage": "https://joekings2k.github.io/Buysimply-frontend/",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
