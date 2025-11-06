@@ -4,7 +4,7 @@ import SignInForm from './SignInForm.vue'
 
 <template >
   <div class="flex h-screen w-full">
-    <div class="w-1/2 bg-[#F8EAFF] p-8 flex flex-col justify-between items-center">
+    <div class=" hidden md:block  md:w-1/2 bg-[#F8EAFF] p-8 flex flex-col justify-between items-center">
       <div class="w-full">
         <img src="/src/assets/logo.png" alt="logo" class="h-14 mb-6" />
       </div>
@@ -26,8 +26,7 @@ import SignInForm from './SignInForm.vue'
       <div class="w-full text-center text-sm text-gray-500">&nbsp;</div>
     </div>
 
-    <!-- RIGHT: sign-in form -->
-    <div class="w-1/2 p-12 flex items-center justify-center">
+    <div class="w-full md:w-1/2  px-5 md:px-12 flex items-center justify-center">
       <SignInForm />
     </div>
   </div>

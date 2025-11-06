@@ -2,7 +2,7 @@
   <div class="w-full flex items-center justify-center  ">
     <form
       @submit.prevent="handleSubmit"
-      class="w-full p-8 rounded-lg shadow-sm space-y-6"
+      class="w-full px-1 sm:px-2 md:px-8  space-y-6"
     >
       <h2 class="text-3xl text-purple-800 font-semibold text-center">
         Welcome Back
@@ -10,7 +10,7 @@
       <p class="text-center text-gray-600">
         Enter your email address and password to access your account.
       </p>
-      <!-- Email -->
+
       <div>
         <label class="block text-gray-700 font-medium mb-1"
           >Email Address <span class="text-red-500">*</span></label
@@ -24,7 +24,6 @@
         />
       </div>
 
-      <!-- Password -->
       <div>
         <label class="block text-gray-700 font-medium mb-1"
           >Password <span class="text-red-500">*</span></label
@@ -82,7 +81,6 @@
         </div>
       </div>
 
-      <!-- Remember me + Forgot password -->
       <div class="flex items-center justify-between text-sm">
         <label class="flex items-center space-x-2 text-gray-600">
           <input
@@ -95,7 +93,6 @@
         <a href="#" class="text-purple-700 hover:underline">Forgot Password?</a>
       </div>
 
-      <!-- Submit Button -->
       <button
         type="submit"
         class="w-full bg-purple-700 hover:bg-purple-800 text-white font-semibold py-3 rounded-md transition-colors"
@@ -103,7 +100,6 @@
         Sign in
       </button>
 
-      <!-- Sign up link -->
       <p class="text-center text-sm text-gray-600">
         Don’t have an account?
         <a href="#" class="text-purple-700 font-semibold hover:underline"
