@@ -1,8 +1,8 @@
 <template>
-  <div class="w-full flex items-center justify-center">
+  <div class="w-full flex items-center justify-center  ">
     <form
       @submit.prevent="handleSubmit"
-      class="w-full max-w-md bg-white p-8 rounded-lg shadow-sm space-y-6"
+      class="w-full p-8 rounded-lg shadow-sm space-y-6"
     >
       <h2 class="text-3xl text-purple-800 font-semibold text-center">
         Welcome Back
@@ -20,7 +20,7 @@
           v-model="email"
           placeholder="Enter your email"
           required
-          class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-600"
+          class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 bg-white focus:ring-purple-600"
         />
       </div>
 
@@ -35,7 +35,7 @@
             v-model="password"
             placeholder="Enter your password"
             required
-            class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-600 pr-10"
+            class="bg-white  w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-600 pr-10"
           />
           <button
             type="button"
@@ -88,7 +88,7 @@
           <input
             type="checkbox"
             v-model="remember"
-            class="rounded border-gray-300"
+            class="rounded border-gray-300 "
           />
           <span>Remember me</span>
         </label>
